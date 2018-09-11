@@ -1,0 +1,328 @@
+body {
+    font-family: 'Source Code Pro';
+    color: #262626;
+}
+
+#main-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: flex-end;
+}
+
+section .section-header {
+    text-align: center;
+    margin: 50px 0;
+}
+
+section .section-header-title {
+    font-family: 'Averia Sans Libre';
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #262626;
+}
+
+section .section-header-text {
+    font-family: 'Source Code Pro';
+}
+
+section h3 {
+    font-family: 'Averia Sans Libre';
+    color: #262626;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Navigation*/
+
+#main-nav .nav-item a {
+    text-transform: uppercase;
+    font-family: 'Averia Sans Libre';
+    font-size: 1.5em;
+    color: white;
+}
+
+#main-nav .nav-item a:hover {
+    color: #28a745;
+}
+
+#main-nav .navbar-brand {
+    font-family: 'Space Mono';
+    font-weight: 500;
+    font-size: 2em;
+    color: #D8D8D8;
+}
+
+/*Header*/
+
+#main-header {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/marko-blazevic-561418-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #D8D8D8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-header .header-content {
+    text-align: center;
+}
+
+#main-header .header-content-title {
+    text-transform: uppercase;
+    font-family: 'Averia Sans Libre';
+    font-size: 5em;
+}
+
+#main-header .header-content .view-more {
+    font-family: 'Averia Sans Libre';
+    text-transform: uppercase;
+    background-color: #28a745;
+    color: #D8D8D8;
+    padding: 15px 20px;
+}
+
+/*Services*/
+
+#services {
+    height: 100vh;
+    background-color: #D8D8D8;
+}
+
+.text-center {
+    display: flex;
+    justify-content: space-between;
+}
+
+#services .fas {
+    font-size: 2.8em;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    background-color: #28a745;
+    border-radius: 50%;
+    border: 1px solid #28a745;
+    margin: 4vh;
+    color: #D8D8D8;
+    transition: all 0.3s;
+}
+
+#services .fas:hover {
+    background-color: #D8D8D8;
+    color: #28a745;
+    transform: rotate(360deg);
+}
+
+/*Portfolio*/
+
+#portfolio {
+    height: 100vh;
+    background-color: #0B0B0B;
+    color: #D8D8D8;
+}
+
+#portfolio .section-header-title {
+    color: #D8D8D8;
+}
+
+#portfolio .portfolio-item {
+    background-color: #8E8E8E;
+}
+
+#portfolio .portfolio-item .portfolio-image-background {
+    height: 50vh;
+    margin-bottom: 1vh;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.4s;
+}
+
+#portfolio .portfolio-item #portfolio-image-background-1 {
+    background-image: url(../img/emma-frances-logan-358506-unsplash.jpg);
+}
+
+#portfolio .portfolio-item #portfolio-image-background-2 {
+    background-image: url(../img/jack-woodward-360781-unsplash.jpg);
+}
+
+#portfolio .portfolio-item #portfolio-image-background-3 {
+    background-image: url(../img/casey-horner-616068-unsplash.jpg);
+}
+
+#portfolio .portfolio-item .portfolio-item-mask {
+    background-color: rgba(40, 167, 69, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #D8D8D8;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+#portfolio .portfolio-item .portfolio-image-background:hover .portfolio-item-mask {
+    opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-image-background:hover {
+    transform: scale(1.5);
+}
+
+#portfolio .portfolio-item .portfolio-image {
+    overflow: hidden;
+}
+
+#portfolio .portfolio-item figcaption {
+    text-align: center;
+}
+
+figcaption {
+    margin: 1vh;
+}
+
+/*Skills*/
+
+#skills p {
+    text-align: center;
+}
+
+#skills {
+    height: 100vh;
+    background-color: #D8D8D8;
+    color: #262626;
+    text-align: center;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+}
+
+#skills .section-header-title {
+    text-align: center;
+}
+
+#skills .skills-icons {
+    display: flex;
+    align-items: stretch;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #262626;
+}
+
+#skills .skills-icon-item {
+    color: #262626;
+}
+
+#skills .skills-icon-item img {
+    margin-bottom: 15px;
+    margin: 5vh;
+}
+
+#text-skills {
+    display: flex;
+    justify-content: center;
+}
+
+/*Contact*/
+
+#contact,
+#footer {
+    height: 100vh;
+    padding: 40px;
+    height: inherit;
+    background-color: #0B0B0B;
+    color: #D8D8D8;
+    padding-bottom: 40px;
+}
+
+#contact .section-header,
+#contact .section-header-title {
+    color: #D8D8D8;
+}
+
+#contact .contact-columns {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5vh;
+}
+
+#contact .contact-columns textarea {
+    height: 100%;
+}
+
+#contact .contact-columns input,
+#contact .contact-columns textarea {
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Averia Sans Libre';
+    text-transform: uppercase;
+}
+
+#contact input[type='submit'] {
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Averia Sans Libre';
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #28a745;
+    border: 1px solid #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+#contact input[type='submit']:hover {
+    background-color: #D8D8D8;
+    color: #28a745;
+}
+
+contact-data {
+    font-family: 'Source Code Pro';
+}
+
+#contact a {
+    color: #28a745;
+}
+
+/*Footer*/
+
+#footer {
+    background-color: #D8D8D8;
+    color: #262626;
+}
+
+.text-center {
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 0.5%;
+}
+
+.social-links {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    line-height: 50px;
+    background-color: #262626;
+    border-radius: 50%;
+    color: #D8D8D8;
+    transition: all 0.4s;
+}
+
+.social-links:hover {
+    background-color: #28a745;
+    color: #D8D8D8;
+}

@@ -248,7 +248,12 @@ figcaption {
     font-family: 'Averia Sans Libre';
     text-transform: uppercase;
 }
-
+#agreement {
+    display: inline-flex;
+    align-items: center;
+    padding-top: 30px;
+    line-height: inherit;
+}
 #contact input[type='submit'] {
     padding: 15px;
     border-radius: 5px;

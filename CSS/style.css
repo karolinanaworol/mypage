@@ -209,7 +209,7 @@ figcaption {
     margin: 5vh;
 }
 
-#text-skills {
+.text-skills {
     display: inline-flex;
     justify-content: center;
 }

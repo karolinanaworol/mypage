@@ -93,6 +93,7 @@ section h3 {
 
 #services {
     background-color: #D8D8D8;
+    padding: 40px;
 }
 
 .text-center {
@@ -124,6 +125,7 @@ section h3 {
 #portfolio {
     background-color: #0B0B0B;
     color: #D8D8D8;
+    padding: 40px;
 }
 
 #portfolio .section-header-title {
@@ -184,7 +186,7 @@ section h3 {
 }
 
 figcaption {
-    margin: 1vh;
+ padding: 12px;
 }
 
 /*Skills*/
@@ -193,6 +195,7 @@ figcaption {
     background-color: #D8D8D8;
     color: #262626;
     text-align: center;
+    padding: 40px;
 }
 
 .text-center {
@@ -207,11 +210,6 @@ figcaption {
 #skills .skills-icon-item img {
     margin-bottom: 15px;
     margin: 5vh;
-}
-
-.text-skills {
-    display: inline-flex;
-    justify-content: center;
 }
 
 /*Contact*/

@@ -189,10 +189,6 @@ figcaption {
 
 /*Skills*/
 
-#skills p {
-    text-align: center;
-}
-
 #skills {
     background-color: #D8D8D8;
     color: #262626;
@@ -202,19 +198,6 @@ figcaption {
 .text-center {
     display: flex;
     justify-content: center;
-}
-
-#skills .section-header-title {
-    text-align: center;
-}
-
-#skills .skills-icons {
-    display: flex;
-    align-items: stretch;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    color: #262626;
 }
 
 #skills .skills-icon-item {
@@ -227,7 +210,7 @@ figcaption {
 }
 
 #text-skills {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
 }
 

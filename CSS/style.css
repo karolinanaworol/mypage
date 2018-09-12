@@ -92,7 +92,6 @@ section h3 {
 /*Services*/
 
 #services {
-    height: 100vh;
     background-color: #D8D8D8;
 }
 
@@ -123,7 +122,6 @@ section h3 {
 /*Portfolio*/
 
 #portfolio {
-    height: 100vh;
     background-color: #0B0B0B;
     color: #D8D8D8;
 }
@@ -196,7 +194,6 @@ figcaption {
 }
 
 #skills {
-    height: 100vh;
     background-color: #D8D8D8;
     color: #262626;
     text-align: center;
@@ -238,7 +235,6 @@ figcaption {
 
 #contact,
 #footer {
-    height: 100vh;
     padding: 40px;
     height: inherit;
     background-color: #0B0B0B;

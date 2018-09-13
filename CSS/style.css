@@ -92,7 +92,7 @@ section h3 {
 /*Services*/
 
 #services {
-    background-color: white;
+    background-color: #D8D8D8;
     padding: 40px;
 }
 
@@ -192,7 +192,7 @@ figcaption {
 /*Skills*/
 
 #skills {
-    background-color: white;
+    background-color: #D8D8D8;
     color: #262626;
     text-align: center;
     padding: 50px 0px 40px 0px;
